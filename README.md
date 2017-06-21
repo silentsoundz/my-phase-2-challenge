@@ -17,9 +17,9 @@ Each requirement has a point value. A fully complete requirement gets full point
 
 ## General Requirements
 
-- [ ] __10:__ Solution is in a public GitHub repository called `phase-2-challenge`.
-- [ ] __10:__ Solution repository has 4 folders: `part-1`, `part-2`, and `part-3`, and `part-4`.
-- [ ] __20:__ Git history shows frequent commits.
+- [x] __10:__ Solution is in a public GitHub repository called `phase-2-challenge`.
+- [x] __10:__ Solution repository has 4 folders: `part-1`, `part-2`, and `part-3`, and `part-4`.
+- [x] __20:__ Git history shows frequent commits.
 
 ## Part 1: Write tests and solutions for these functions
 
@@ -181,9 +181,9 @@ Design a layout to match the following wireframe:
 
 ### Requirements
 
-- [ ] __10:__ All files are stored under the `part-3/` folder
-- [ ] __20:__ No third party CSS libraries are used (all code must be written from scratch)
-- [ ] __10:__ HTML and CSS are separated into their own files.
+- [x] __10:__ All files are stored under the `part-3/` folder
+- [x] __20:__ No third party CSS libraries are used (all code must be written from scratch)
+- [x] __10:__ HTML and CSS are separated into their own files.
 - [ ] __20:__ Page has a full-width header with the site title "Grocer" and a button "Cart"
 - [ ] __10:__ Site title "Grocer" is aligned to the left
 - [ ] __10:__ "Cart" button is aligned to the right

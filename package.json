@@ -1,0 +1,33 @@
+{
+  "name": "my-phase-2-challenge",
+  "version": "1.0.0",
+  "description": "phase 2 testing",
+  "main": "functions.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "body-parser": "^1.17.2",
+    "chai": "^3.2.0",
+    "chai-change": "^2.1.2",
+    "chai-http": "^1.0.0",
+    "express": "^4.15.3",
+    "mocha": "^3.4.2",
+    "nodeman": "^1.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "start": "nodeman functions.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silentsoundz/my-phase-2-challenge.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/silentsoundz/my-phase-2-challenge/issues"
+  },
+  "homepage": "https://github.com/silentsoundz/my-phase-2-challenge#readme"
+}

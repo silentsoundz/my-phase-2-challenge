@@ -1,60 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>grocery store</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./prac.css">
     <link rel="stylesheet"
     <meta charset="utf-8">
-  </head>
+</head>
   <body>
     <div class="flex-container">
-
-      <!-- header -->
-
-      <header>
-        <p class="title">Grocer</p>
-          <button class="cart-button" name="Cart">Cart</button>
-      </header>
-
-      <!-- navigation -->
-
-      <div id = "mySidenav" class="sidenav">
-        <ul>
-          <li>Sections</li>
-          <li><a href="#produce_list">Produce</a></li>
-          <li><a href="#deli_list">Deli</a></li>
-          <li><a href="#frozen_list">Frozen</a></li>
-        </ul>
-      </div>
-
-      <!-- main contents -->
-
-      <main class="main-contents">
-        <h1>Groceries</h1>
-          <ul>
-            <li><a id="produce_list">Produce</a>
-              <div class="item-info">
-                <p>item name</p>
-                <p>price</p>
-                <button type="submit" name="button">Add to Cart</button>
-              </div>
-            </li>
-            <li><a id="deli_list">Deli</a>
-              <div class="item-info">
-                <p>item name</p>
-                <p>price</p>
-                <button type="submit" name="button">Add to Cart</button>
-              </div>
-            </li>
-            <li><a id="frozen_list">Frozen</a>
-              <div class="item-info">
-                <p>item name</p>
-                <p>price</p>
-                <button type="submit" name="button">Add to Cart</button>
-              </div>
-            </li>
-          </ul>
-      </main>
-
+      <table>
+  	    <tr>
+  		    <td colspan="2">
+  			    <div class="header"><h1>Grocer</h1>
+              <button class="cart-button" name="Cart">Cart (3)</button>
+            </div>
+          </td>
+  	    </tr>
+  	    <tr>
+  		    <td>
+  			    <div class="navigation">
+              <ul>
+                <li id="title">Sections</li>
+                <li><a href="#produce_list">Produce</a></li>
+                <li><a href="#deli_list">Deli</a></li>
+                <li><a href="#frozen_list">Frozen</a></li>
+              </ul>
+  			    </div>
+  		    </td>
+  		    <td>
+  			    <div class="content">
+              <h2>Groceries</h2>
+              <ul>
+                <li><a id="produce_list">Produce</a>
+                  <div class="item-info">
+                    <p>item name</p>
+                    <p>price</p>
+                    <button type="submit" name="button">Add to Cart</button>
+                  </div>
+                </li>
+                <li><a id="deli_list">Deli</a>
+                  <div class="item-info">
+                    <p>item name</p>
+                    <p>price</p>
+                    <button type="submit" name="button">Add to Cart</button>
+                  </div>
+                </li>
+                <li><a id="frozen_list">Frozen</a>
+                  <div class="item-info">
+                    <p>item name</p>
+                    <p>price</p>
+                    <button type="submit" name="button">Add to Cart</button>
+                  </div>
+                </li>
+              </ul>
+  			    </div>
+  		    </td>
+  	    </tr>
+  	    <tr>
+  		    <td colspan="2" style="vertical-align: bottom">
+  			    <div class="footer">
+  			    </div>
+  		    </td>
+  	    </tr>
+      </table>
     </div>
   </body>
+
+
+
+
+
+
+
